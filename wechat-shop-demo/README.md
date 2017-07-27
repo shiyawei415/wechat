@@ -1,4 +1,4 @@
-# wechat-weapp-demo
+# wechat-shop-demo
 简单的微信小程序购物车DEMO
 
 ![](./demo1.png)
