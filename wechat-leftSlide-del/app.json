@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/leftSlide/leftSlide"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#32D771",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"#fff"
+  }
+}
