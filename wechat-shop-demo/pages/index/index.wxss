@@ -1,0 +1,30 @@
+/**index.wxss**/
+.fruit{
+	padding: 1rem;
+	border-bottom: 1px solid #ddd;
+  display: flex;
+}
+
+.fruit .item_text{
+  flex: 1
+}
+.fruit .title{
+	display: block;
+	font-size: 1rem;
+}
+.fruit p{
+	color: orange;
+	font-size: .75rem;
+}
+
+.btn-num{
+  height:90rpx;
+  padding: 0 25rpx;
+  text-align: center;
+  margin-left: 10rpx;
+}
+.fruit_total{
+  padding: 10rpx;
+  text-align: center;
+  border-top:1px solid #ddd;
+}

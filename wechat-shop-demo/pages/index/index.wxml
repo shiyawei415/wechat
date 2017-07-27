@@ -1,0 +1,19 @@
+<view class="container">
+
+	<view class="content" wx:for="{{dishesList}}" wx:key="key" wx:for-index="idx">
+			<view class="fruit">
+        <view class="item_text">
+					<text class="title">{{item.name}}-价格：￥{{item.price}}</text><p>数量：{{item.num}}件；总价：￥{{item.price*item.num}}</p>
+				</view>
+
+       <button type="primary" class="btn-num" size="{{primarySize}}" data-index="{{idx}}" data-types="-" bindtap="numToogle">-</button>
+       <button type="primary" class="btn-num " size="{{primarySize}}" data-index="{{idx}}" data-types="+" bindtap="numToogle">+</button>
+			</view>
+	</view>
+
+
+   <view class="fruit_total">全部总价：￥{{total}}</view>
+</view>
+
+
+

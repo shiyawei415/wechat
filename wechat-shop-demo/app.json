@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundColor":"#f4f4f4",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#31CD3C",
+    "navigationBarTitleText": "购物车",
+    "navigationBarTextStyle":"white"
+  }
+}
